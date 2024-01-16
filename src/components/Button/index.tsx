@@ -6,8 +6,8 @@ const Button = ({ className, onClick, title, ...props }: Props) => {
     return (
         <button
             className={classNames(
-                className,
-                "outline-none border-green-light bg-green rounded-[32px] px-3 py-1 border text-white"
+                "outline-none border-green-light bg-green rounded-[32px] px-3 py-1 border text-white",
+                className
             )}
             onClick={onClick}
             {...props}
